@@ -9,6 +9,7 @@ import cfonts from 'cfonts';
 import {createInterface} from 'readline';
 import yargs from 'yargs';
 const __dirname = dirname(fileURLToPath(import.meta.url));
+const keep_alive.js = require('./keep_alive.js')
 const require = createRequire(__dirname);
 const {name, author} = require(join(__dirname, './package.json'));
 const {say} = cfonts;
